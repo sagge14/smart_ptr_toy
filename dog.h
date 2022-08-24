@@ -6,10 +6,9 @@
 class Dog
 {
     string name;
-    int* n; // для теста
     shared_ptr_toy lovelyToy;
 public:
-    explicit Dog(const class shared_ptr_toy& _myToy);
-    void setLovelyToy(const class shared_ptr_toy& _myToy);
-    ~Dog();
+    explicit Dog(const class shared_ptr_toy& _myToy) : lovelyToy(_myToy){};
+    void setLovelyToy(const class shared_ptr_toy& _myToy) ;
+    ~Dog() = default;
 };
