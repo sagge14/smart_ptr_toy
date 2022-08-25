@@ -1,10 +1,11 @@
 //
 // Created by Sg on 21.08.2022.
 //
+#pragma once
 #include <string>
 #include "toy.h"
 #include <utility>
-#pragma once
+#include <iostream>
 class shared_ptr_toy
 {
     int* counter;

@@ -1,9 +1,9 @@
 //
 // Created by Sg on 16.08.2022.
 //
+#pragma once
 #include <string>
 #include <utility>
-#pragma once
 using namespace std;
 class Toy{
 public:

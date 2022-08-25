@@ -1,8 +1,9 @@
 //
 // Created by Sg on 21.08.2022.
 //
-#include "shared_ptr_toy.h"
 #pragma once
+#include "shared_ptr_toy.h"
+
 class Dog
 {
     string name;

@@ -2,7 +2,6 @@
 // Created by Sg on 21.08.2022.
 //
 #include "shared_ptr_toy.h"
-#include <iostream>
 shared_ptr_toy make_shared_ptr_toy(const string &name) {
     shared_ptr_toy b(name);
     return b;
